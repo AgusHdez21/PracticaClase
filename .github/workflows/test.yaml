@@ -23,7 +23,7 @@ jobs:
       - name: Read file  # Lee
         run: |
           cat hola.txt
-          ls-al
+          ls -al
 
   dos:
     runs-on: ubuntu-latest
@@ -37,4 +37,4 @@ jobs:
       - name: instalar
         run: 
           cd .github/workflows
-          ls-al
+          ls -al
