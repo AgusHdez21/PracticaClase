@@ -34,3 +34,7 @@ jobs:
       - name: Checkout
         run: ls -al
 
+      - name: instalar
+        run: 
+          cd .github/workflows
+          ls-al
